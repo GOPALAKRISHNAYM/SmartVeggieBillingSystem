@@ -8,11 +8,15 @@
 7. Nvidia GPU -GTX 1050 or higher
     - CUDA Toolkit -V9.0
     - CuDNN -V 7.05
+8. Sqlite 3
 
 ### Procedure
-## Step1: 
+## Step 1: 
 * clone the repository.
-* copy the folder named FrontEnd and place it in the htdocs folder of Xampp server.  
+* copy the folder named FrontEnd and place it in the htdocs folder of Xampp server.
+
+## Step 2:
+* Install conda and cuda as stated below.
 * Conda Env – Yolo.yml
 
 	🔗 https://github.com/reigngt09/yolov3workflow/tree/master/2_YoloV3_Execute
@@ -52,7 +56,7 @@
      
   * Ensure that you have the latest nvidia graphics drivers install on your PC. You can do this from the nvidia website.
     
-## Step 2 - PyTorch Yolo v3
+## Step 3 - PyTorch Yolo v3
 Change directory to a workplace where you want to download the repo                                                                                                                                                                                                     
 
   * Clone Yolo v3 Repo
@@ -63,7 +67,7 @@ Change directory to a workplace where you want to download the repo
   
   	🔗https://pjreddie.com/media/files/yolov3.weights
 
-## Step 3 - PyTorch Yolo v3
+## Step 4 - PyTorch Yolo v3
 
 * Change Directory to cloned repo
 
@@ -78,3 +82,24 @@ Change directory to a workplace where you want to download the repo
 * Run demo on webcam
 
 	 ```python cam_demo.py```
+## Step 4 - Install Sqlite 3
+
+* Install Sqlite for the database purpose.
+
+## Step 5 - Running the server
+
+* Start the xampp server.
+
+* Go to your browser and check the url.
+	 	🔗http://localhost/FrontEnd/index.html
+		
+* Now you can proceed with the shopping as directed in the frond end design.
+
+* For admin end,to update the prices use the following url.
+ 	       🔗http://localhost/FrontEnd/ratesAdmin.php
+	       
+	       
+	       
+	       
+	       				        ###    THANK YOU    ###
+
